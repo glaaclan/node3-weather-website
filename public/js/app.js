@@ -87,16 +87,6 @@ const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
-// messageOne.textContent = 'From Javascript'
-
-// 
-// Goal: Render content to paragraphs
-// 
-// 1. Select the second message p from Javascript
-// 2. Just before fetch, render loading message and empty p
-// 3. If no error, render location and forecast
-// 5. Test your work! Search for errors and for valid locations
-
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
@@ -119,9 +109,9 @@ weatherForm.addEventListener('submit', (e) => {
 })
 
 // 
-// Goal: Use input value to get weather
-// 
-// 1. Migrate fetch call into the submit call
-// 2. Use the search text as the address  query string value
-// 3. Submit the form with a valid and invalid value to test
+// Goal: Put the notes app under version control
+// 1. Initialize a new repo in project directory
+// 2. Ignore node_modules
+// 3. Commit all files to the repository
+
 
